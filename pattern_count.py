@@ -1,3 +1,5 @@
+#counts the occurances of a sub-string of a given length within a larger string.
+
 def PatternCount(Pattern, Text):
     count = 0
     for i in range(len(Text)-len(Pattern)+1):
